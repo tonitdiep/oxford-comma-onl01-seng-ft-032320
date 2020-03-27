@@ -2,7 +2,7 @@ require 'pry'
 def oxford_comma(array)
 #binding.pry
   if array.count== 1
-    return array
+    return array[0]
   elsif array.count == 2   #add add in a two-element array
     return array.join("and")
   elsif array.count == 3
