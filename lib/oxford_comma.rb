@@ -9,4 +9,5 @@ binding.pry
     return array.join(",") + (array[-1] with ",")    #add comma and "and" in a three-element array
   else array == 5
     return array.count()
+  end
 end
