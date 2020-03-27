@@ -7,7 +7,7 @@ def oxford_comma(array)
     return array.join(" and ")
   elsif array.count == 3
 binding.pry
-    return array.join(", ") #(array[-1] with ",")    #add comma and "and" in a three-element array
+    return array[0..-2].join(", ") + " and"    #(array[-1] with ",")    #add comma and "and" in a three-element array
   else array.count == 5
     # comma between all elements except the last two which get an and
     return array.count()
