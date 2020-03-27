@@ -9,7 +9,7 @@ def oxford_comma(array)
 binding.pry
     return array.join(",") + (array[-1] with ",")    #add comma and "and" in a three-element array
   else array.count == 5
-    # comma between all elements except the last two which get an and 
+    # comma between all elements except the last two which get an and
     return array.count()
   end
 end
